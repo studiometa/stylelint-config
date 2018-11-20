@@ -1,0 +1,33 @@
+{
+  "name": "@studiometa/stylelint-config",
+  "version": "1.0.0",
+  "description": "StyleLint Configuration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/studiometa/stylelint-config.git"
+  },
+  "author": "Studio Meta <agence@studiometa.fr> (https://www.studiometa.fr)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/studiometa/stylelint-config/issues"
+  },
+  "homepage": "https://github.com/studiometa/stylelint-config#readme",
+  "devDependencies": {
+    "@studiometa/eslint-config": "^1.1.1"
+  },
+  "dependencies": {
+    "prettier": "^1.15.2",
+    "stylelint": "^9.8.0",
+    "stylelint-config-prettier": "^4.0.0",
+    "stylelint-config-recommended": "^2.1.0",
+    "stylelint-config-recommended-scss": "^3.2.0",
+    "stylelint-formatter-pretty": "^1.0.3",
+    "stylelint-high-performance-animation": "^1.1.1",
+    "stylelint-prettier": "^1.0.5",
+    "stylelint-scss": "^3.4.0"
+  }
+}
