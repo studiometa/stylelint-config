@@ -45,7 +45,7 @@ module.exports = {
     'selector-max-compound-selectors': 3,
     /**
      * Disallow BEM nested selectors such as `&__foo` and `&--foo`.
-     * See https://regex101.com/r/pU0j5e/1 to test the regex which matches, and
+     * See https://regex101.com/r/pU0j5e/2 to test the regex which matches, and
      * therefore allows the following nested selectors:
      *
      * ```scss
@@ -60,8 +60,11 @@ module.exports = {
      * [foo] &
      * [foo="bar"]
      * &:hover, &:active
+     * p
+     * div
+     * a
      * ```
      */
-    'selector-nested-pattern': /^(?!&[_-])(.+).+/,
+    'selector-nested-pattern': /^(?!&[_-])(.+)/,
   },
 };
