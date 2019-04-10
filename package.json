@@ -1,10 +1,12 @@
 {
   "name": "@studiometa/stylelint-config",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "StyleLint Configuration",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo 'No test specified' && exit 0",
+    "lint": "eslint .",
+    "fix": "eslint --fix ."
   },
   "repository": {
     "type": "git",
@@ -17,7 +19,9 @@
   },
   "homepage": "https://github.com/studiometa/stylelint-config#readme",
   "devDependencies": {
-    "@studiometa/eslint-config": "^1.1.1"
+    "@studiometa/eslint-config": "^1.1.2",
+    "@studiometa/prettier-config": "^1.0.0",
+    "eslint": "^5.16.0"
   },
   "dependencies": {
     "prettier": "^1.15.2",
