@@ -1,4 +1,4 @@
 module.exports = {
   root: true,
-  extends: [ '@studiometa/eslint-config/es6' ],
+  extends: ['@studiometa/eslint-config/prettier-es6'],
 };

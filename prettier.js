@@ -1,6 +1,3 @@
 module.exports = {
-  extends: [
-    require.resolve('./index.js'),
-    'stylelint-prettier/recommended',
-  ],
+  extends: [require.resolve('./index.js'), 'stylelint-prettier/recommended'],
 };
