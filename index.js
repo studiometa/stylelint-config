@@ -3,7 +3,7 @@ module.exports = {
     'stylelint-config-recommended',
     'stylelint-config-recommended-scss',
   ],
-  plugins: [ 'stylelint-high-performance-animation', 'stylelint-scss' ],
+  plugins: ['stylelint-high-performance-animation', 'stylelint-scss'],
   rules: {
     'plugin/no-low-performance-animation-properties': [
       true,
@@ -14,8 +14,8 @@ module.exports = {
     'at-rule-empty-line-before': [
       'always',
       {
-        ignore: [ 'first-nested', 'after-comment' ],
-        ignoreAtRules: [ 'return', 'warn', 'import', 'else' ],
+        ignore: ['first-nested', 'after-comment'],
+        ignoreAtRules: ['return', 'warn', 'import', 'else'],
       },
     ],
     /**
