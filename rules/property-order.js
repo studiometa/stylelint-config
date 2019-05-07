@@ -1,6 +1,21 @@
 module.exports = {
   plugins: ['stylelint-order'],
   rules: {
+    'order/order': [
+      'custom-properties',
+      'dollar-variables',
+      {
+        type: 'at-rule',
+        name: 'include',
+      },
+      'declarations',
+      'rules',
+      {
+        type: 'at-rule',
+        name: 'media',
+        hasBlock: true,
+      },
+    ],
     'order/properties-order': [
       {
         // Must be first.
@@ -166,7 +181,6 @@ module.exports = {
           'caption-side',
           'border-spacing',
           'border-collapse',
-          'content',
           'quotes',
           'counter-reset',
           'counter-increment',
