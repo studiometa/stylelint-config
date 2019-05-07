@@ -2,6 +2,7 @@ module.exports = {
   extends: [
     'stylelint-config-recommended',
     'stylelint-config-recommended-scss',
+    require.resolve('./rules/property-order.js'),
   ],
   plugins: ['stylelint-high-performance-animation', 'stylelint-scss'],
   rules: {
