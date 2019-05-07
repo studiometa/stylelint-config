@@ -51,4 +51,4 @@ module.exports = {
      */
     'selector-nested-pattern': /^(?!&[_-])(.+)/,
   },
-}
+};
