@@ -1,0 +1,9 @@
+# OS et IDE files
+.DS_Store
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+node_modules/
+npm-debug.log
+package-lock.json
