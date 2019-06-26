@@ -13,6 +13,7 @@ module.exports = {
       {
         type: 'at-rule',
         name: 'include',
+        parameter: '^((?!for-each-breakpoints).)*$',
         hasBlock: true,
       },
       'rules',
