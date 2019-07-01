@@ -1,5 +1,11 @@
 # StyleLint Configuration
 
+[![NPM Version](https://img.shields.io/npm/v/@studiometa/stylelint-config.svg?style=flat-square)](https://www.npmjs.com/package/@studiometa/stylelint-config)
+[![Dependency Status](https://img.shields.io/david/studiometa/stylelint-config.svg?label=deps&style=flat-square)](https://david-dm.org/studiometa/stylelint-config)
+[![devDependency Status](https://img.shields.io/david/dev/studiometa/stylelint-config.svg?label=devDeps&style=flat-square)](https://david-dm.org/studiometa/stylelint-config?type=dev)
+
+> Studio Meta's one and only Stylelint configuration to be used across projects.
+
 ## Usage
 
 Install the package with your favorite package manager:
