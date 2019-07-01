@@ -19,5 +19,7 @@ module.exports = {
         ignoreAtRules: ['return', 'warn', 'import', 'else'],
       },
     ],
+    'block-opening-brace-space-before': 'always',
+    'declaration-colon-space-after': 'always',
   },
 };
