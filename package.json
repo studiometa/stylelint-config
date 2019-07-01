@@ -1,6 +1,6 @@
 {
   "name": "@studiometa/stylelint-config",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "StyleLint Configuration",
   "main": "index.js",
   "scripts": {
