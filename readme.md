@@ -24,7 +24,7 @@ module.exports = {
 };
 ```
 
-If you want to use [Prettier](https://prettier.io/) in your project, you can use the `prettier` configuration sent in this package. Add a `.prettierrc` file at the root of your project and set the StyleLint configuration as follow:
+It is recommended to use [Prettier](https://prettier.io/) in your project for a more opinionated linting and formatting of your files. To do so, you can use the `prettier` configuration sent in this package. Add a `.prettierrc` file at the root of your project and set the StyleLint configuration as follow:
 
 ```js
 module.exports = {
