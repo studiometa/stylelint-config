@@ -6,6 +6,11 @@ module.exports = {
       'dollar-variables',
       {
         type: 'at-rule',
+        name: 'import',
+        hasBlock: false,
+      },
+      {
+        type: 'at-rule',
         name: 'include',
         hasBlock: false,
       },
