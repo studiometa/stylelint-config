@@ -7,6 +7,7 @@ module.exports = {
   ],
   plugins: ['stylelint-high-performance-animation'],
   rules: {
+    indentation: [2, { baseIndentLevel: 1 }],
     'plugin/no-low-performance-animation-properties': [
       true,
       { ignore: 'paint-properties' },
