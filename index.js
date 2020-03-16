@@ -20,6 +20,18 @@ module.exports = {
         ignoreAtRules: ['return', 'warn', 'import', 'else'],
       },
     ],
+    'scss/at-rule-no-unknown': [
+      true,
+      {
+        ignoreAtRules: [
+          'tailwind',
+          'apply',
+          'variants',
+          'responsive',
+          'screen',
+        ],
+      },
+    ],
     'block-opening-brace-space-before': 'always',
     'declaration-colon-space-after': 'always',
   },
