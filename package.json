@@ -8,11 +8,6 @@
     "lint": "eslint .",
     "fix": "eslint --fix ."
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run lint"
-    }
-  },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/studiometa/stylelint-config.git"
