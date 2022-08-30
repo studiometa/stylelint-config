@@ -4,7 +4,8 @@
   "description": "StyleLint Configuration",
   "main": "index.js",
   "scripts": {
-    "test": "npm run lint",
+    "test": "stylelint tests/",
+    "stylelint-check": "stylelint-config-prettier-check",
     "lint": "eslint .",
     "fix": "eslint --fix ."
   },
@@ -19,20 +20,22 @@
   },
   "homepage": "https://github.com/studiometa/stylelint-config#readme",
   "devDependencies": {
-    "@studiometa/eslint-config": "^3.0.4",
-    "@studiometa/prettier-config": "^2.0.1",
-    "eslint": "^8.21.0",
-    "prettier": "^2.2.1",
-    "stylelint": "^14.9.1"
+    "@studiometa/eslint-config": "^3.0.5",
+    "@studiometa/prettier-config": "^2.1.1",
+    "eslint": "^8.23.0",
+    "prettier": "^2.7.1",
+    "stylelint": "^14.11.0"
   },
   "dependencies": {
     "postcss": "^8.4.16",
     "postcss-scss": "^4.0.4",
-    "stylelint-config-prettier": "^8.0.2",
-    "stylelint-formatter-pretty": "^2.1.1",
-    "stylelint-high-performance-animation": "^1.5.2",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-recommended": "^9.0.0",
+    "stylelint-config-recommended-scss": "^7.0.0",
+    "stylelint-formatter-pretty": "^3.1.0",
+    "stylelint-high-performance-animation": "^1.6.0",
     "stylelint-order": "^5.0.0",
-    "stylelint-prettier": "^1.2.0",
+    "stylelint-prettier": "^2.0.0",
     "stylelint-scss": "^4.3.0"
   },
   "peerDependencies": {
