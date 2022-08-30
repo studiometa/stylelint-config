@@ -1,0 +1,14 @@
+html {
+  position: absolute;
+  display: block;
+
+  .foo {
+    display: block;
+  }
+
+  &:hover {
+    .foo {
+      display: none;
+    }
+  }
+}
