@@ -1,10 +1,6 @@
 module.exports = {
-  extends: [
-    'stylelint-config-recommended',
-    'stylelint-config-recommended-scss',
-    require.resolve('./rules/property-order.js'),
-    require.resolve('./rules/selector.js'),
-  ],
+  customSyntax: 'postcss-scss',
+  extends: [require.resolve('./rules/property-order.js'), require.resolve('./rules/selector.js')],
   plugins: ['stylelint-high-performance-animation'],
   rules: {
     indentation: [2, { baseIndentLevel: 1 }],
