@@ -22,13 +22,13 @@
   "devDependencies": {
     "@studiometa/eslint-config": "^3.0.5",
     "@studiometa/prettier-config": "^2.1.1",
-    "eslint": "^8.23.0",
+    "eslint": "^8.25.0",
     "prettier": "^2.7.1",
-    "stylelint": "^14.11.0"
+    "stylelint": "^14.14.0"
   },
   "dependencies": {
-    "postcss": "^8.4.16",
-    "postcss-scss": "^4.0.4",
+    "postcss": "^8.4.17",
+    "postcss-scss": "^4.0.5",
     "stylelint-config-prettier": "^9.0.3",
     "stylelint-config-recommended": "^9.0.0",
     "stylelint-config-recommended-scss": "^7.0.0",
