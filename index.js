@@ -7,8 +7,9 @@ module.exports = {
     require.resolve('./rules/selector.js'),
     'stylelint-config-prettier',
   ],
-  plugins: ['stylelint-high-performance-animation'],
+  plugins: ['stylelint-high-performance-animation', 'stylelint-prettier'],
   rules: {
+    'prettier/prettier': true,
     'plugin/no-low-performance-animation-properties': [true, { ignore: 'paint-properties' }],
     'scss/at-rule-no-unknown': [
       true,
