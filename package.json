@@ -24,7 +24,7 @@
     "@studiometa/prettier-config": "^3.0.0",
     "eslint": "^8.41.0",
     "prettier": "^2.8.8",
-    "stylelint": "^15.6.2"
+    "stylelint": "^15.10.1"
   },
   "dependencies": {
     "postcss": "^8.4.24",
