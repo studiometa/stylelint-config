@@ -2,12 +2,16 @@ html {
   position: absolute;
   display: block;
 
-  .foo {
-    display: block;
+  &:hover .foo {
+    display: none;
   }
 
+  .foo {
+    display:block;
+    position: absolute;
+  }
   &:hover {
-    .foo {
+    .foo_bar_baz {
       display: none;
     }
   }

@@ -1,3 +1,3 @@
-module.exports = {
-  extends: [require.resolve('./index.js')],
+export default {
+  extends: ['./index.js'],
 };
