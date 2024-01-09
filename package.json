@@ -3,6 +3,7 @@
   "version": "3.0.2",
   "description": "StyleLint Configuration",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "stylelint tests/",
     "stylelint-check": "stylelint-config-prettier-check",

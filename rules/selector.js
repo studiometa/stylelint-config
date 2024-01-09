@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   plugins: ['stylelint-scss'],
   rules: {
     'scss/selector-no-redundant-nesting-selector': true,

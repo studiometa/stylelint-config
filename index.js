@@ -1,11 +1,10 @@
-module.exports = {
+export default {
   customSyntax: 'postcss-scss',
   extends: [
     'stylelint-config-recommended',
     'stylelint-config-recommended-scss',
-    require.resolve('./rules/property-order.js'),
-    require.resolve('./rules/selector.js'),
-    'stylelint-config-prettier',
+    './rules/property-order.js',
+    './rules/selector.js',
   ],
   plugins: ['stylelint-high-performance-animation', 'stylelint-prettier'],
   rules: {
