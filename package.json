@@ -1,6 +1,6 @@
 {
   "name": "@studiometa/stylelint-config",
-  "version": "4.0.0-alpha.0",
+  "version": "4.0.0-alpha.1",
   "description": "StyleLint Configuration",
   "main": "index.js",
   "type": "module",
@@ -40,7 +40,7 @@
     "stylelint-scss": "^6.0.0"
   },
   "peerDependencies": {
-    "prettier": ">=2.0.0",
+    "prettier": ">=3.0.0",
     "stylelint": ">=16.0.0"
   }
 }
