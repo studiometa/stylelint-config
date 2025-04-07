@@ -4,6 +4,17 @@ All notable changes to this project will be documented in this file. The format 
 
 ## [Unreleased]
 
+## [v4.0.1](https://github.com/studiometa/js-toolkit/compare/4.0.0..4.0.1) (2025-04-07)
+
+### Changed
+
+- Update code quality configurations ([cfbd936](https://github.com/studiometa/stylelint-config/commit/cfbd936))
+- Update dependencies ([f17a1df](https://github.com/studiometa/stylelint-config/commit/f17a1df))
+
+### Fixed
+
+- Fix repository link ([2922b4f](https://github.com/studiometa/stylelint-config/commit/2922b4f))
+
 ## [v4.0.0](https://github.com/studiometa/js-toolkit/compare/3.0.2..4.0.0) (2023-04-11)
 
 ### Changed
