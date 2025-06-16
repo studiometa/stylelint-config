@@ -8,9 +8,11 @@
   "scripts": {
     "pretest": "npm run build:pkg",
     "test": "stylelint tests/",
-    "prelint": "npm run build:pkg",
-    "lint": "eslint src/",
-    "fix": "npm run lint -- --fix",
+    "lint": "npm run lint:scripts && npm run lint:types",
+    "lint:scripts": "eslint src/ --cache",
+    "lint:types": "tsc --build tsconfig.lint.json",
+    "fix": "npm run fix:scripts",
+    "fix:scripts": "npm run lint:scripts -- --fix",
     "build": "npm run build:pkg && npm run build:types",
     "build:types": "tsc --build tsconfig.build.json",
     "build:pkg": "esbuild 'src/**/*.ts' --outdir=dist --target=esnext --format=esm --sourcemap"
@@ -34,17 +36,17 @@
   },
   "dependencies": {
     "@studiometa/stylelint-formatter-gitlab": "^1.0.2",
-    "postcss": "^8.5.3",
+    "postcss": "^8.5.6",
     "postcss-html": "^1.8.0",
     "postcss-scss": "^4.0.9",
     "stylelint": "^16.20.0",
     "stylelint-config-recommended": "^16.0.0",
-    "stylelint-config-recommended-scss": "^14.1.0",
+    "stylelint-config-recommended-scss": "^15.0.1",
     "stylelint-formatter-pretty": "^4.0.1",
     "stylelint-high-performance-animation": "^1.11.0",
-    "stylelint-order": "^6.0.4",
+    "stylelint-order": "^7.0.0",
     "stylelint-prettier": "^5.0.3",
-    "stylelint-scss": "^6.11.1"
+    "stylelint-scss": "^6.12.1"
   },
   "peerDependencies": {
     "prettier": ">=3.0.0"

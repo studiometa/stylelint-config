@@ -1,3 +1,3 @@
-import { defineConfig, js, prettier } from '@studiometa/eslint-config';
+import { defineConfig, ts, prettier } from '@studiometa/eslint-config';
 
-export default defineConfig(js, prettier);
+export default defineConfig(ts, prettier);
