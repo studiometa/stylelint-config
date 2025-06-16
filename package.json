@@ -32,11 +32,11 @@
   },
   "homepage": "https://github.com/studiometa/stylelint-config#readme",
   "devDependencies": {
-    "@studiometa/eslint-config": "^4.3.1",
-    "@studiometa/prettier-config": "^4.1.0",
-    "esbuild": "^0.25.5",
-    "prettier": "^3.5.3",
-    "typescript": "^5.8.3"
+    "@studiometa/eslint-config": "4.3.1",
+    "@studiometa/prettier-config": "4.1.0",
+    "esbuild": "0.25.5",
+    "prettier": "3.5.3",
+    "typescript": "5.8.3"
   },
   "dependencies": {
     "@studiometa/stylelint-formatter-gitlab": "^1.0.2",
