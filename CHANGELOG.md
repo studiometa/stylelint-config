@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file. The format 
 
 ## [Unreleased]
 
+## [v4.1.1](https://github.com/studiometa/js-toolkit/compare/4.1.0..4.1.1) (2025-06-16)
+
+### Fixed
+
+- Fix a new rule configuration ([5d11241](https://github.com/studiometa/stylelint-config/commit/5d11241))
+
 ## [v4.1.0](https://github.com/studiometa/js-toolkit/compare/4.0.0..4.1.0) (2025-06-16)
 
 ### Added

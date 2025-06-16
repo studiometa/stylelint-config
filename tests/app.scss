@@ -4,6 +4,7 @@ html {
 
   &:hover .foo {
     display: none;
+    @apply block
   }
 
   .foo {
