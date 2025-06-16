@@ -4,6 +4,19 @@ All notable changes to this project will be documented in this file. The format 
 
 ## [Unreleased]
 
+## [v4.1.0](https://github.com/studiometa/js-toolkit/compare/4.0.0..4.1.0) (2025-06-16)
+
+### Added
+
+- Add useful dependencies ([c3299f6](https://github.com/studiometa/stylelint-config/commit/c3299f6))
+- Add .github/renovate.json ([#47](https://github.com/studiometa/stylelint-config/pull/47), [7285c4b](https://github.com/studiometa/stylelint-config/commit/7285c4b))
+
+### Changed
+
+- Migrate to TypeScript ([2cc47fc](https://github.com/studiometa/stylelint-config/commit/2cc47fc))
+- Update dependencies ([f17a1df](https://github.com/studiometa/stylelint-config/commit/f17a1df))
+- Fix repository link ([2922b4f](https://github.com/studiometa/stylelint-config/commit/2922b4f))
+
 ## [v4.0.0](https://github.com/studiometa/js-toolkit/compare/3.0.2..4.0.0) (2023-04-11)
 
 ### Changed
