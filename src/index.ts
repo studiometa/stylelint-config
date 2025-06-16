@@ -16,6 +16,7 @@ export default {
         ignoreAtRules: ['tailwind', 'apply', 'variants', 'responsive', 'screen'],
       },
     ],
+    'at-rule-no-deprecated': [true, { ignoreAtRules: ['apply'] }],
     'rule-empty-line-before': [
       'always',
       {
